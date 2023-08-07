@@ -38,7 +38,7 @@ export default function Adddata() {
         
         <input className='inputs' required type="number" max={99999} placeholder='flight id' onChange={(e)=>{setFlight(e.target.value)}}/>
         <input className='inputs' required type="text" minLength={1} placeholder='company name' onChange={(e)=>{setCompany(e.target.value)}} />
-        <input className='inputs' required type="number" max={450} min={1} placeholder='people abord' onChange={(e)=>{setPeople(e.target.value)}} />
+        <input className='inputs' required type="number" max={450} min={1} placeholder='people aboard' onChange={(e)=>{setPeople(e.target.value)}} />
         <button className='buttons' onClick={()=>{valid()}}>Add flight</button>
         
         
