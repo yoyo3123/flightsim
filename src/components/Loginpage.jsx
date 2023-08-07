@@ -23,7 +23,7 @@ export default function Loginpage(props) {
 
   return (
     <div id='loginpage'>
-        <input type="text" id='login' placeholder='password' onChange={(e)=>{setId(e.target.value)}}/>
+        <input type="text" id='login' placeholder='password is password' onChange={(e)=>{setId(e.target.value)}}/>
         <br />
         <button id='button' onClick={()=>{validLogin(id)}}>login</button>
     </div>
