@@ -1,6 +1,6 @@
 import './App.css';
 import { Roomprovider } from './ContextApi';
-import {BrowserRouter,Routes,Route } from 'react-router-dom'
+import {HashRouter,Routes,Route } from 'react-router-dom'
 import Loginpage from './components/Loginpage';
 import Controlpanel from './components/Controlpanel';
 import {Flightlog} from './ContextApi'
@@ -26,7 +26,7 @@ function App() {
       <Flightlog>
       
 
-      <BrowserRouter>
+      <HashRouter>
         {showButtons()}
         <Routes>
 
@@ -48,7 +48,7 @@ function App() {
       
       
       
-      </BrowserRouter>
+      </HashRouter>
       </Flightlog>
     </div>
   );
