@@ -5,7 +5,6 @@
     z-index: 0;
     flex-direction:column;
     align-items: flex-start;
-    /* background-color: #61dafb; */
     margin:30px 0px 20px 30px
 }
 
@@ -15,11 +14,12 @@
 
     flex-direction:row;
     
-    margin:30px 20px 20px 30px;
+    margin:30px 0px 50px 0px;
+    padding-left: 30px;
     align-items:flex-start;
-    background-color: #7b43ef;
 
-}}
+    }
+}
 #loginpage{
     margin: 100px auto;
     background-color: #7b43ef;
@@ -40,7 +40,6 @@
 #button{
      background-color: #61dafb;
      scale: 250%;
-     
      border-radius: 10px;
      border: solid black ;
 }

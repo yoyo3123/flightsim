@@ -30,18 +30,11 @@ function App() {
         {showButtons()}
         <Routes>
 
-        <Route path='/' element={<Loginpage setShow={setShow}/>}/>
-
-        {/* <Route path='/Controlpanel' element={<Controlpanel/>}/> */}
-        <Route path='/Controlpanel/All' element={<Alldatahub/>}/>
-        <Route path='/Controlpanel/Sort' element={<Sortbuttons/>}/>
-        <Route path='/Controlpanel/Add' element={<Adddata/>}/>
-        <Route path='/Controlpanel/Delete' element={<Deletedata/>}/>
-
-        {/* <Route path='/room/:name' element={<Personalroom/>}/> */}
-
-
-
+          <Route path='/' element={<Loginpage setShow={setShow}/>}/>
+          <Route path='/Controlpanel/All' element={<Alldatahub/>}/>
+          <Route path='/Controlpanel/Sort' element={<Sortbuttons/>}/>
+          <Route path='/Controlpanel/Add' element={<Adddata/>}/>
+          <Route path='/Controlpanel/Delete' element={<Deletedata/>}/>
 
         </Routes>
       

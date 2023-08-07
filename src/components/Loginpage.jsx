@@ -15,7 +15,7 @@ export default function Loginpage(props) {
         console.log(id);
         if (id == 'password') {
             props.setShow(1)
-            nav('/Controlpanel')
+            nav('/Controlpanel/All')
         }else{
             alert('Error')
         }
