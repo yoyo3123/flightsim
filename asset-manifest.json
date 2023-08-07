@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flightsims/static/css/main.681ac997.css",
-    "main.js": "/flightsims/static/js/main.65e38a5c.js",
+    "main.js": "/flightsims/static/js/main.f300669d.js",
     "static/js/787.205bfac0.chunk.js": "/flightsims/static/js/787.205bfac0.chunk.js",
     "index.html": "/flightsims/index.html",
     "main.681ac997.css.map": "/flightsims/static/css/main.681ac997.css.map",
-    "main.65e38a5c.js.map": "/flightsims/static/js/main.65e38a5c.js.map",
+    "main.f300669d.js.map": "/flightsims/static/js/main.f300669d.js.map",
     "787.205bfac0.chunk.js.map": "/flightsims/static/js/787.205bfac0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.681ac997.css",
-    "static/js/main.65e38a5c.js"
+    "static/js/main.f300669d.js"
   ]
 }
